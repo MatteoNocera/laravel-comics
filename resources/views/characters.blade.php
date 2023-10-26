@@ -3,5 +3,7 @@
 @section('page-title', 'Characters')
 
 @section('content')
-<h1>Home</h1>
+<div class="container">
+    <h1>Main Characters</h1>
+</div>
 @endsection

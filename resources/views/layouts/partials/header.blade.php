@@ -7,7 +7,7 @@
             <div class="d-flex justify-content-between align-items-center">
 
                 <a class="navbar-brand py-0" href="#">
-                    <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Logo DC" class="p-2">
+                    <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="Logo DC" class="p-3">
                 </a>
 
                 <ul class="navbar-nav d-flex justify-content-between">
@@ -55,8 +55,8 @@
                 </ul>
 
                 <div class="search_control d-flex justify-content-end">
-                    <input type="text" class="text-end col-3 form-control" name="searchbar" id="searchbar" placeholder="Search">
-                    <button><i class="fas fa-search"></i></i></button>
+                    <input type="text" class="text-center form-control" name="searchbar" id="searchbar" placeholder="Search 🔍">
+
                 </div>
             </div>
 

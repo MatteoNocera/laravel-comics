@@ -1,0 +1,20 @@
+#foot_up {
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+    .col-4 a {
+        text-decoration: none;
+        color: rgb(116, 115, 115);
+
+    }
+
+
+    #dc_logo_big {
+        position: absolute;
+        translate: 0 -150px;
+        z-index: 0;
+    }
+}
