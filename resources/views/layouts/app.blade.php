@@ -18,8 +18,8 @@
 <body>
 
 
-    @include ('partials.header')
-    @include ('partials.jumbotron')
+    @include ('layouts.partials.header')
+    @include ('layouts.partials.jumbotron')
 
 
 
@@ -27,7 +27,7 @@
         @yield('content')
     </main>
 
-    @include ('partials.footer')
+    @include ('layouts.partials.footer')
 </body>
 
 </html>
