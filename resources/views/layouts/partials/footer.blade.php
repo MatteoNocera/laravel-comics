@@ -181,5 +181,47 @@
 
     </section>
 
-    <div class="foot_down"></div>
+    <section id="foot_down">
+        <div class="container">
+            <div class="row justify-content-between py-5">
+
+                <div class="col-6">
+                    <button type="button" class="btn btn-outline-primary text-white">SIGN-UP NOW</button>
+                </div>
+
+
+                <div class="col-6 justify-content-end d-flex align-items-center gap-4">
+
+                    <a href="#" id="follow">
+                        FOLLOW US
+                    </a>
+
+                    <div class="socials d-flex gap-4">
+
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                        </a>
+
+                        <a href="#">
+                            <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </footer>
