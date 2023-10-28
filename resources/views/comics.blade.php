@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('page-title', 'Characters')
+@section('page-title', 'Comics')
 
 @section('content')
     <div id="app_main">
@@ -11,19 +11,17 @@
                 <button id="current" class="btn btn-primary mb-3 position-absolute">CURRENT SERIES</button>
             </div>
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 justify-content-center py-3 g-4">
+            <div class="row row-cols-sm-2 justify-content-center py-3 g-4">
 
-                @forelse ($comics as $comic)
-                    <div class="card">
-                        <img class="" src="{{ $comic['thumb'] }}" alt="">
-                        <div class="py-3">
-                            <h5 class="card-text">{{ $comic['series'] }}</h5>
-                        </div>
+
+                <div class="card">
+                    <img class="" src="{{ $comics[0]['thumb'] }}" alt="">
+                    <div class="py-3">
+                        <h5 class="card-text">{{ $comics[0]['series'] }}</h5>
                     </div>
+                </div>
 
-                @empty
-                    <p>Not comics yet</p>
-                @endforelse
+
 
 
             </div>

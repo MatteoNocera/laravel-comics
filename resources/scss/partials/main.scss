@@ -1,0 +1,26 @@
+@use './variables.scss' as *;
+
+#app_main {
+
+    background-color: $dc_dark;
+
+    #load {
+        padding: 0 3rem;
+    }
+
+    #current {
+        top: -1.2rem;
+    }
+
+    .card {
+        background-color: $dc_dark;
+        color: $dc_white;
+        border: none;
+
+        img {
+            height: auto;
+            aspect-ratio: 1 / 1;
+        }
+    }
+
+}

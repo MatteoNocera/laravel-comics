@@ -1,0 +1,23 @@
+@use './variables.scss' as *;
+
+#actions {
+    background-color: $dc_primary;
+    color: $dc_white;
+    position: relative;
+    z-index: 100;
+
+    a {
+        text-decoration: none;
+        color: $dc_white;
+
+        img {
+            height: 60px;
+        }
+
+        span {
+            padding-left: 1rem;
+
+        }
+
+    }
+}

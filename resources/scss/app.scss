@@ -1,5 +1,13 @@
-@import '~bootstrap/scss/bootstrap';
+@use '~bootstrap/scss/bootstrap';
 
-@import './partials/jumbo.scss';
-@import './partials/header.scss';
-@import './partials/footer.scss';
+@use './partials/variables.scss';
+
+@use './partials/jumbo.scss';
+
+@use './partials/header.scss';
+
+@use './partials/main.scss';
+
+@use './partials/actions.scss';
+
+@use './partials/footer.scss';
